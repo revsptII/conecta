@@ -1,0 +1,160 @@
+:root {
+    --fundo-body: #f8f8ff;
+    --font-color: #124c86;
+    --font-main: 'Martian Mono';
+    --weight-main: '400';
+}
+
+/*
+'Autour One'
+'Abril Fatface'
+'Martian Mono' +++
+*/
+
+body {
+    background-color: var(--fundo-body);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--font-color);
+}
+
+.container {
+    height: 100vh;
+    /*border: 1px solid gray;*/
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left__img {
+    width: 40%;
+}
+
+.main__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.right__title {
+    padding-bottom: 8%;
+    margin-top: 7.5%;
+    font-size: 5rem;
+    color: var(--font-color);
+    font-weight: 700;
+    font-family: var(--font-main);
+}
+
+.right__text {
+    margin-bottom: auto;
+    font-size: 3rem;
+    color: var(--font-color);
+    font-weight: var(--weight-main);
+    font-family: var(--font-main);
+    text-decoration: none;
+    line-height: 4rem;
+}
+
+.sec__div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.microntainer {
+    height: 25vh;
+    /*border: 1px solid gray;*/
+}
+
+.sec {
+    display: flex;
+}
+
+.midcontainer {
+    height: 75vh;
+    /*border: 1px solid gray;*/
+}
+
+.ml2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ml2__img {
+    width: 30%;
+}
+
+.ml2__mercadoapelao {
+    width: 45%;
+}
+
+.ml2__imgptII {
+    width: 15%;
+}
+
+.ml2__txt {
+    width: 80%;
+    font-size: 1.7rem;
+    text-align: left;
+    text-decoration: none;
+    color: var(--font-main);
+}
+
+.ml2__txtptII {
+    width: 25%;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--font-main);
+}
+
+.ml2__txtptIII {
+    width: 30%;
+    font-size: 1.4rem;
+    text-align: left;
+    text-decoration: none;
+    color: var(--font-main);
+}
+
+.tac {
+    padding-left: 26%;
+    line-height: 2.3rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.main__center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mc__img {
+    width: 50%;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexboxptII {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left__imgptII {
+    width: 55%;
+}

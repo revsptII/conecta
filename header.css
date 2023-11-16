@@ -1,0 +1,23 @@
+.cabecalho__naveg {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(217, 148, 59, 0.5);
+    border-bottom: 5px solid rgb(217, 148, 59, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0;
+}
+
+.cabecalho__naveg__link {
+    font-family: var(--font-main);
+    font-weight: var(--weight-main);
+    font-size: 1.3rem;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
